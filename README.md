@@ -14,13 +14,13 @@ A través de este repositorio documento mis laboratorios, investigaciones y el d
 ## 🚀 Proyectos y Write-ups
 
 ### 1. Infraestructura y Automatización
-- [x] **Sistema Centralizado de Alertas:** [Flujos de automatización con n8n y Python para enviar reportes de estado del sistema a Telegram.](proyectos/01-alertas-n8n.html)
-- [x] **Despliegue de Red Corporativa (FortiGate):** [Configuración de SD-WAN, LinkMonitor y perfiles de seguridad mediante CLI.](proyectos/02-fortigate-sdwan.html)
-- [x] **Homelab Defensivo:** [Arquitectura de red local con filtrado DNS (Pi-hole) y servicios en contenedores Docker alojados en Raspberry Pi.](proyectos/06-homelab-defensivo.html)
+- [x] **Sistema Centralizado de Alertas:** [Flujos de automatización con n8n y Python para enviar reportes de estado del sistema a Telegram.](Proyectos/01-alertas-n8n.html)
+- [x] **Despliegue de Red Corporativa (FortiGate):** [Configuración de SD-WAN, LinkMonitor y perfiles de seguridad mediante CLI.](Proyectos/02-fortigate-sdwan.html)
+- [x] **Homelab Defensivo:** [Arquitectura de red local con filtrado DNS (Pi-hole) y servicios en contenedores Docker alojados en Raspberry Pi.](Proyectos/06-homelab-defensivo.html)
 
 ### 2. Respuesta a Incidentes (DFIR)
-- [x] **Análisis de Volcado de Memoria:** [Investigación de procesos anómalos e inyecciones de código utilizando Volatility 3.](proyectos/03-forense-volatility.html)
-- [x] **Forense de Sistemas de Archivos:** [Extracción de evidencias, análisis de línea temporal y recuperación de datos con Autopsy.](proyectos/04-forense-autopsy.html)
+- [x] **Análisis de Volcado de Memoria:** [Investigación de procesos anómalos e inyecciones de código utilizando Volatility 3.](Proyectos/03-forense-volatility.html)
+- [x] **Forense de Sistemas de Archivos:** [Extracción de evidencias, análisis de línea temporal y recuperación de datos con Autopsy.](Proyectos/04-forense-autopsy.html)
 
 ### 3. Auditoría y Seguridad Ofensiva
-- [x] **Simulación de Ataques en Laboratorio:** [Pruebas de concepto explotando vulnerabilidades con Nmap, Metasploit e Hydra.](proyectos/05-pentesting-metasploit.html)
+- [x] **Simulación de Ataques en Laboratorio:** [Pruebas de concepto explotando vulnerabilidades con Nmap, Metasploit e Hydra.](Proyectos/05-pentesting-metasploit.html)
