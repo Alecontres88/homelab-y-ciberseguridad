@@ -19,8 +19,7 @@ El objetivo principal es garantizar la continuidad del servicio mediante SD-WAN 
 
 ### Ejemplo de Configuración: LinkMonitor
 A continuación, un extracto de los comandos utilizados para configurar el monitor de estado de los enlaces SD-WAN, asegurando el failover automático ante caídas:
-
-```bash
+```
 config system link-monitor
     edit "Monitor_WAN"
         set srcintf "sdwan"
@@ -31,7 +30,7 @@ config system link-monitor
         set update-static-route enable
     next
 end
-
+````
 ## Valor Técnico
 Este despliegue demuestra capacidad para:
 - Administrar firewalls corporativos directamente desde la terminal.
