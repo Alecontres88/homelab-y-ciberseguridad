@@ -11,6 +11,8 @@ A través de este repositorio documento mis laboratorios, investigaciones y el d
 - **Sistemas y Redes:** Administración Linux, Docker, FortiGate (SD-WAN, perfiles de seguridad vía CLI).
 - **Automatización y Scripting:** Python, n8n, despliegue de bots e integraciones de alertas.
 
+## 🚀 Proyectos y Write-ups
+
 ### 1. Infraestructura y Automatización
 - [x] **Sistema Centralizado de Alertas:** [Flujos de automatización con n8n y Python para enviar reportes de estado del sistema a Telegram.](Proyectos/01-alertas-n8n.md)
 - [x] **Despliegue de Red Corporativa (FortiGate):** [Configuración de SD-WAN, LinkMonitor y perfiles de seguridad mediante CLI.](Proyectos/02-fortigate-sdwan.md)
