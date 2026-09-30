@@ -17,6 +17,21 @@ El objetivo principal es garantizar la continuidad del servicio mediante SD-WAN 
 3. **Monitorización de Enlaces:** Configuración de *LinkMonitor* para detectar caídas de red y redirigir el tráfico automáticamente sin cortes de servicio.
 4. **Políticas de Firewall:** Creación de reglas IPv4 desde la terminal, aplicando perfiles de seguridad para inspeccionar el tráfico permitido.
 
+### Ejemplo de Configuración: LinkMonitor
+A continuación, un extracto de los comandos utilizados para configurar el monitor de estado de los enlaces SD-WAN, asegurando el failover automático ante caídas:
+
+```bash
+config system link-monitor
+    edit "Monitor_WAN"
+        set srcintf "sdwan"
+        set server "8.8.8.8" "1.1.1.1"
+        set protocol ping
+        set gateway-ip 192.168.1.1
+        set update-cascade-interface enable
+        set update-static-route enable
+    next
+end
+
 ## Valor Técnico
 Este despliegue demuestra capacidad para:
 - Administrar firewalls corporativos directamente desde la terminal.
