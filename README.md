@@ -17,7 +17,7 @@ A través de este repositorio documento mis laboratorios, investigaciones y el d
 
 ### 1. Infraestructura y Automatización
 - [ ] **Homelab Defensivo:** Arquitectura de red local con filtrado DNS (Pi-hole) y servicios en contenedores Docker alojados en Raspberry Pi.
-- [ ] **Sistema Centralizado de Alertas:** Flujos de automatización con n8n y Python para enviar reportes de estado del sistema a Telegram.
+- [x] **Sistema Centralizado de Alertas:** [Flujos de automatización con n8n y Python para enviar reportes de estado del sistema a Telegram.](./proyectos/01-alertas-n8n.md)
 
 ### 2. Respuesta a Incidentes (DFIR)
 - [ ] **Análisis de Volcado de Memoria:** Investigación de procesos anómalos utilizando Volatility 3.
