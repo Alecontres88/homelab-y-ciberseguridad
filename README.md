@@ -25,4 +25,4 @@ A través de este repositorio documento mis laboratorios, investigaciones y el d
 - [ ] **Forense de Sistemas de Archivos:** Extracción de evidencias y análisis de artefactos con Autopsy.
 
 ### 3. Auditoría y Seguridad Ofensiva
-- [ ] **Simulación de Ataques en Laboratorio:** Pruebas de concepto explotando vulnerabilidades comunes e implementando mitigaciones.
+- [x] **Simulación de Ataques en Laboratorio:** [Pruebas de concepto explotando vulnerabilidades con Nmap, Metasploit e Hydra.](./proyectos/03-pentesting-metasploit.md)`
