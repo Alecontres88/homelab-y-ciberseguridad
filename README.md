@@ -16,8 +16,7 @@ A través de este repositorio documento mis laboratorios, investigaciones y el d
 ### 1. Infraestructura y Automatización
 - [x] **Sistema Centralizado de Alertas:** [Flujos de automatización con n8n y Python para enviar reportes de estado del sistema a Telegram.](./proyectos/01-alertas-n8n.md)
 - [x] **Despliegue de Red Corporativa (FortiGate):** [Configuración de SD-WAN, LinkMonitor y perfiles de seguridad mediante CLI.](./proyectos/02-fortigate-sdwan.md)
-- [ ] **Homelab Defensivo:** Arquitectura de red local con filtrado DNS (Pi-hole) y servicios en contenedores Docker alojados en Raspberry Pi.
-
+- [x] **Homelab Defensivo:** [Arquitectura de red local con filtrado DNS (Pi-hole) y servicios en contenedores Docker alojados en Raspberry Pi.](./proyectos/06-homelab-defensivo.md)
 ### 2. Respuesta a Incidentes (DFIR)
 - [x] **Análisis de Volcado de Memoria:** [Investigación de procesos anómalos e inyecciones de código utilizando Volatility 3.](./proyectos/03-forense-volatility.md)
 - [x] **Forense de Sistemas de Archivos:** [Extracción de evidencias, análisis de línea temporal y recuperación de datos con Autopsy.](./proyectos/04-forense-autopsy.md)
