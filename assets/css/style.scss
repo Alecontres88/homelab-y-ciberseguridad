@@ -4,8 +4,8 @@
 
 /* Fondo y texto general más legible */
 body {
-  background-color: #0a0a0a !important; /* Negro profundo */
-  color: #e0e0e0 !important; /* Blanco hueso para no cansar la vista */
+  background-color: #0a0a0a !important; 
+  color: #e0e0e0 !important; 
   font-family: 'Courier New', Courier, monospace !important;
 }
 
@@ -14,6 +14,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #00e5ff !important; 
   text-shadow: 0px 0px 8px rgba(0, 229, 255, 0.6);
   border-bottom: 1px solid rgba(0, 229, 255, 0.5) !important;
+}
+
+/* Textos en negrita (como los >> y las categorías) en Verde Hacker */
+strong, b {
+  color: #00FF41 !important;
+  text-shadow: 0px 0px 5px rgba(0, 255, 65, 0.4);
 }
 
 /* Enlaces interactivos */
@@ -45,20 +51,20 @@ pre, code {
   box-shadow: 0 0 10px rgba(0, 229, 255, 0.1);
 }
 
-/* Panel flotante de estado en la esquina (Truco CSS) */
+/* Panel flotante de estado en la esquina en Dorado */
 body::after {
   content: "SYSTEM_STATUS: OPTIMIZED\A LOG_STREAM: OK\A UPTIME: 15d 4h";
   white-space: pre;
   position: fixed;
   bottom: 20px;
   right: 20px;
-  border: 1px solid rgba(0, 229, 255, 0.5);
+  border: 1px solid rgba(229, 192, 123, 0.5); /* Borde dorado */
   padding: 10px 15px;
-  color: #00e5ff;
+  color: #e5c07b; /* Texto dorado */
   font-size: 12px;
   background-color: rgba(0, 0, 0, 0.9);
-  box-shadow: 0 0 10px rgba(0, 229, 255, 0.2);
-  pointer-events: none; /* Evita que el panel bloquee los clics del ratón */
+  box-shadow: 0 0 10px rgba(229, 192, 123, 0.2);
+  pointer-events: none; 
   z-index: 1000;
   border-radius: 2px;
 }
