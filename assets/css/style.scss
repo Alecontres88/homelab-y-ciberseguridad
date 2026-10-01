@@ -2,33 +2,63 @@
 ---
 @import "{{ site.theme }}";
 
-/* Efecto Monitor CRT / Matrix */
+/* Fondo y texto general más legible */
 body {
-  background-color: #000000 !important; /* Fondo negro puro */
-  color: #00FF41 !important; /* Verde neón Matrix */
+  background-color: #0a0a0a !important; /* Negro profundo */
+  color: #e0e0e0 !important; /* Blanco hueso para no cansar la vista */
   font-family: 'Courier New', Courier, monospace !important;
-  text-shadow: 0px 0px 4px #00FF41; /* Brillo de las letras */
 }
 
+/* Títulos en Azul/Cian Neón */
 h1, h2, h3, h4, h5, h6 {
-  color: #00FF41 !important;
-  text-shadow: 0px 0px 8px #00FF41;
-  border-bottom: 1px solid #00FF41 !important; /* Subrayado neón */
+  color: #00e5ff !important; 
+  text-shadow: 0px 0px 8px rgba(0, 229, 255, 0.6);
+  border-bottom: 1px solid rgba(0, 229, 255, 0.5) !important;
 }
 
+/* Enlaces interactivos */
 a {
-  color: #39ff14 !important; /* Enlaces un poco más claros */
+  color: #00e5ff !important;
 }
-
 a:hover {
-  text-shadow: 0px 0px 10px #39ff14;
-  background-color: #003300; /* Fondo al pasar el ratón */
+  text-shadow: 0px 0px 10px #00e5ff;
+  background-color: rgba(0, 229, 255, 0.1);
+  text-decoration: none !important;
 }
 
-/* Estilo para las cajas de código de la terminal */
+/* Contenedor principal con borde y brillo sutil */
+.container {
+  border: 1px solid rgba(0, 229, 255, 0.3) !important;
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.1) !important;
+  padding: 40px !important;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+  border-radius: 4px;
+}
+
+/* Terminales y bloques de código técnicos */
 pre, code {
   background-color: #050505 !important;
-  border: 1px solid #00FF41 !important;
-  color: #00FF41 !important;
-  box-shadow: 0 0 10px #00FF4120;
+  border: 1px solid rgba(0, 229, 255, 0.4) !important;
+  color: #00e5ff !important;
+  box-shadow: 0 0 10px rgba(0, 229, 255, 0.1);
+}
+
+/* Panel flotante de estado en la esquina (Truco CSS) */
+body::after {
+  content: "SYSTEM_STATUS: OPTIMIZED\A LOG_STREAM: OK\A UPTIME: 15d 4h";
+  white-space: pre;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: 1px solid rgba(0, 229, 255, 0.5);
+  padding: 10px 15px;
+  color: #00e5ff;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 10px rgba(0, 229, 255, 0.2);
+  pointer-events: none; /* Evita que el panel bloquee los clics del ratón */
+  z-index: 1000;
+  border-radius: 2px;
 }
